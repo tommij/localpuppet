@@ -1,18 +1,2 @@
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
+mod 'puppetlabs-razor'
+mod 'puppetlabs-ntp', "0.0.3"
