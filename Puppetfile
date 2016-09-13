@@ -1,18 +1,2 @@
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
+mod 'apache',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache'
