@@ -6,7 +6,7 @@ node client01 {
   class { '::mcollective':
     middleware_hosts => [ 'puppet' ],
     manage_packages => false,
-    collectives => rar, bar
+    collectives => 'rar, bar'
   }
 }
 node client02 {
