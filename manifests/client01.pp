@@ -3,4 +3,7 @@ node client01 {
     ensure => present,
     content => "DIIIIIMS"
   }
+  class { '::mcollective':
+    middleware_hosts => [ 'puppet' ],
+  }
 }
