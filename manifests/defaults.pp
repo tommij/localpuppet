@@ -6,7 +6,7 @@ class defaults () {
     stage => first,
     },
   }
-  class { '::ntp' } 
+  class { '::ntp': } 
 }
 
 class stages { 
