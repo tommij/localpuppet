@@ -1,5 +1,5 @@
 node 'default' { 
-  class { "defaults": }
+  include defaults
 }
 class defaults () { 
   include stages
