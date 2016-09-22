@@ -17,6 +17,10 @@ class defaults () {
     Net: dhcp:${facts['networking']['dhcp']} 
     \n",
   }
+  file { "/tmp/nisse": }
+    ensure => present,
+    content => "du er er nisse"
+  }
 }
 
 class stages { 
