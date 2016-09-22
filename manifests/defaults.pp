@@ -16,8 +16,7 @@ class defaults () {
     OS Family:${facts['os']['distro']['description']}
     Arch ${facts['os']['arcitecture']} 
     Net: dhcp:${facts['networking']['dhcp']} 
-    
-    ",
+    \n",
   }
 }
 
