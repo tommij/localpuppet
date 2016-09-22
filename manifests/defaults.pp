@@ -13,7 +13,7 @@ class defaults () {
     content => "
     Virtual::${facts['is_virtual']} ${facts['virtual']}
     OS Family:${facts['os']['family']}
-    OS Family:${facts['os']['distro']['description'] 
+    OS Family:${facts['os']['distro']['description']}
     Net: dhcp:${facts['networking']['dhcp']} 
     \n",
   }
