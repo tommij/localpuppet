@@ -1,3 +1,6 @@
+node 'default' { 
+  include defaults
+}
 class defaults () { 
   include stages
   class { 'apt': 
