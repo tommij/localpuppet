@@ -9,7 +9,6 @@ class defaults () {
     stage => first,
     },
   }
-  include   '::ntp' 
   class { 'motd':
     content => "Hello world!
     virtual: 
