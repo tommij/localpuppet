@@ -10,10 +10,14 @@ class defaults () {
     },
   }
   class { 'motd':
-    content => "Hello world!
+    content => "
     Virtual::${facts['is_virtual']} ${facts['virtual']}
-    OS FAMILY:${facts['os']['family']}
-    more dims/n",
+    OS Family:${facts['os']['family']}
+    OS Family:${facts['os']['distro']['description']}
+    Arch ${facts['os']['arcitecture']} 
+    Net: dhcp:${facts['networking']['dhcp']} 
+    
+    ",
   }
 }
 
