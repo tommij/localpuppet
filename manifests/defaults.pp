@@ -9,7 +9,7 @@ class defaults () {
     stage => first,
     },
   }
-  class { '::ntp': } 
+  include   '::ntp' 
 }
 
 class stages { 
