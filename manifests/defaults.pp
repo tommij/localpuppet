@@ -11,7 +11,7 @@ class defaults () {
   }
   class { 'motd':
     content => "Hello world!
-    virtual: ${facts['is_virtual'} : ${facts['virtual']}
+    virtual: ${facts['is_virtual'} 
     OS FAMILY:${facts['os']['family']}
     more dims/n",
   }
