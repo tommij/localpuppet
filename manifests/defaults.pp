@@ -10,6 +10,12 @@ class defaults () {
     },
   }
   include   '::ntp' 
+  class { 'motd':
+    content => "Hello world!
+    virtual: 
+    $facts['os']['family']
+    more dims/n",
+  }
 }
 
 class stages { 

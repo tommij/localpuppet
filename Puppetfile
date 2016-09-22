@@ -1,6 +1,6 @@
 mod 'puppetlabs-razor'
-mod 'puppetlabs-ntp', "0.0.3"
+mod 'puppetlabs-ntp'
 mod 'richardc-datacat', "0.6.1"
 mod 'puppetlabs-stdlib'
 mod 'puppetlabs-apt'
-
+mod 'puppetlabs-motd'
